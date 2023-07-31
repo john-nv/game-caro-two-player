@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cờ caro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="app-control">
+    <h2 class="title">Game Caro</h2>
+    <div class="board">
+      <div class="status" id="status"></div>
+      <div class="list-button">
+        <button class="button btn-sos" id="restart-btn">
+          <i class="bi bi-arrow-counterclockwise"></i>
+        </button>
+        <button class="button" id="dimension-button">--x--</button>
+        <button class="button" id="back-game">
+          <i class="bi bi-arrow-90deg-left"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="board" class="game"></div>
+</body>
+<script src="./script.js"></script>
+
+</html>
